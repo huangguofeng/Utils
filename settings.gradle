@@ -1,5 +1,2 @@
-rootProject.name='Map'
-include ':AndroidFunctioMap',
-        ':Quys',
-        ':360',
-        'Demo1'
+rootProject.name='Demo'
+include 'Demo1'
