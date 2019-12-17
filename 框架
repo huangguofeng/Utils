@@ -1,0 +1,64 @@
+    /* --------------------------------图片加载库-------------------------*/
+    // glide图片库（4.10.0开始适用andoridX库）   github地址：https://github.com/bumptech/glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    // picasso核心库   github地址：https://github.com/square/picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    // fresco核心库，动态图  github地址：https://github.com/facebook/fresco
+    implementation 'com.facebook.fresco:fresco:2.0.0'
+    implementation 'com.facebook.fresco:animated-gif:0.12.0'
+
+
+    /* --------------------------------网络访问框架-------------------------*/
+    // volley 需要使用androidx，不方便
+    // okhttp        github地址：https://github.com/square/okhttp
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+    // retrofit2     github地址：https://github.com/square/retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.7.0'
+
+
+    /* -----------------------------通信框架-------------------------------*/
+    // EventBus      github地址：https://github.com/greenrobot/EventBus
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    // LiveEventBus  github地址：https://github.com/JeremyLiao/LiveEventBus
+    implementation 'com.jeremyliao:live-event-bus:1.5.7'
+
+    /* -----------------------------响应式编程-------------------------------*/
+    // RxAndroid    github地址：https://github.com/ReactiveX/RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    // RxJava       github地址：https://github.com/ReactiveX/RxJava
+    implementation 'io.reactivex.rxjava2:rxjava:2.x.x'
+    // RxBinding    github地址：https://github.com/JakeWharton/RxBinding
+    implementation 'com.jakewharton.rxbinding3:rxbinding:3.1.0'
+
+
+    /* ---------------------------------注解框架---------------------------*/
+    // 注解butterknife    github地址：https://github.com/JakeWharton/butterknife
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+    // 注解dagger         github地址：https://github.com/google/dagger
+    api 'com.google.dagger:dagger:2.x'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.x'
+
+
+    /* --------------------------------其他工具类---------------------------*/
+    // 图表框架MPAndroidChart   github地址：https://github.com/PhilJay/MPAndroidChart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    // 图表框架hellocharts   github地址：https://github.com/lecho/hellocharts-android
+    implementation 'com.github.lecho:hellocharts-android:v1.5.8'
+    // 二维码生成和扫描     github地址：https://github.com/zxing/zxing
+    implementation 'com.google.zxing:core:3.4.0'
+    // 日志工具类        github地址：https://github.com/orhanobut/logger
+    implementation 'com.orhanobut:logger:2.2.0'
+    // Gson解析       github地址：https://github.com/google/gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+    // fastjson解析   github地址：https://github.com/alibaba/fastjson
+    implementation 'com.alibaba:fastjson:1.2.61'
+    // greenDao数据库  github地址：https://github.com/greenrobot/greenDAO
+    implementation 'org.greenrobot:greendao:3.2.2'
+    // 屏幕适配     github地址：https://github.com/JessYanCoding/AndroidAutoSize
+    implementation 'me.jessyan:autosize:1.1.2'
+    // listview适配器  github地址：https://github.com/hongyangAndroid/baseAdapter
+    implementation 'com.zhy:base-adapter:3.0.3'
+    // recycle适配器   github地址：https://github.com/hongyangAndroid/baseAdapter
+    implementation 'com.zhy:base-rvadapter:3.0.3'
