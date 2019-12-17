@@ -1,0 +1,5 @@
+rootProject.name='Map'
+include ':AndroidFunctioMap',
+        ':Quys',
+        ':360',
+        'Demo1'
