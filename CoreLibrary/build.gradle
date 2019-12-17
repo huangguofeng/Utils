@@ -1,20 +1,31 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "com.hgf.demo"
         minSdkVersion 17
         targetSdkVersion 28
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
     buildTypes {
         release {
+            //混淆
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            //前一部分代表系统默认的android程序的混淆文件，该文件已经包含了基本的混淆声明
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    lintOptions {
+        abortOnError false
     }
 }
 
@@ -22,9 +33,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
 }
-
-
-
 
 
 apply plugin: 'maven'

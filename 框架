@@ -62,3 +62,4 @@
     implementation 'com.zhy:base-adapter:3.0.3'
     // recycle适配器   github地址：https://github.com/hongyangAndroid/baseAdapter
     implementation 'com.zhy:base-rvadapter:3.0.3'
+    // 万能工具集   github地址：https://github.com/Blankj/AndroidUtilCode

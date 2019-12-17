@@ -1,2 +1,3 @@
 rootProject.name='Demo'
 include 'Demo1'
+include 'CoreLibrary'
